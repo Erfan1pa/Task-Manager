@@ -1,0 +1,51 @@
+@font-face {
+  font-family: anton;
+  src: url(/fonts/Anton-Regular.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: anton;
+}
+.time {
+  text-align: center;
+  width: 100%;
+}
+.time span i {
+  color: #fed330;
+}
+#clock {
+  font-size: 50px;
+  color: #fff;
+  letter-spacing: 4px;
+  display: inline-block;
+}
+.container {
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  transition: all 0.3s linear;
+}
+.container:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.item {
+  border: 1px solid rgba(0, 0, 0, 0.555);
+  padding: 5px;
+  margin-top: 7px;
+  position: relative;
+}
+
+.item a {
+  position: absolute;
+  right: 10px;
+  top: 7px;
+  cursor: pointer;
+  color: rgb(231, 151, 2);
+  font-size: 19px;
+}
+#cleartask {
+  margin-top: 25px;
+}

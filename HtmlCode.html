@@ -1,0 +1,48 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/74497dc933.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="icon" href="pic/Task-png.png">
+  <link rel="stylesheet" href="CssCode.css">
+  <title>TASK LIST</title>
+</head>
+
+<body>
+  <div class="time">
+    <h4 id="clock"></h4>
+    <span></span>
+  </div>
+  <div class="container">
+    <div class="top">
+      <h4>Task List</h4>
+      <form id="formTask">
+        <div class="input-field">
+          <input type="text" name="newtask" id="newtask">
+          <label for="newtask">New Task</label>
+          <input class="btn" type="submit" value="ADD TASK" id="confirmeAdd">
+        </div>
+      </form>
+    </div>
+    <div class="bottom">
+      <h4>Tasks</h4>
+      <div class="input-field">
+        <input type="text" name="filter" id="filter">
+        <label for="filter">Filter</label>
+      </div>
+      <ul class="ulCollection"></ul>
+      <button class="btn black" id="cleartask">CLEAR TASK</button>
+    </div>
+  </div>
+
+
+  <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="JsCode.js"></script>
+</body>
+
+</html>
