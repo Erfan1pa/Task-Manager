@@ -1,2 +1,2 @@
 # Task-Manager
-Task Manger with localStorage save and responsive
+Task Manger with localStorage save and responsive + clock
